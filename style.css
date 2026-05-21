@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 32px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.scoreCard {
+    font-size: 32px;
+}
+
+.playerChoice {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.option {
+    font-size: 32px;
+    background-color: lightblue;
+    padding: 8px;
+}
+
+.option:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.pcChoice {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.result {
+    font-size: 32px;
+    text-align: center;
+}
+
+.underlined {
+    text-decoration: underline;
+}
